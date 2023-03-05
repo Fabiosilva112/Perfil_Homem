@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Kumbh Sans', sans-serif;
+}
+
+.principal{
+    width: 100%;
+    height: 500px;
+    background: #1da9b6ff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.perfil{
+    width: 250px;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.azul{
+    width: 100%;
+    height: 35%;
+    background-color: #3ac6d1ff;
+    position:relative;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    background-color: black;
+    background-repeat:repeat;
+    overflow: hidden;
+    border: 4px solid #fff;
+    position: absolute;
+    left: 32%;
+    bottom: -40px;
+}
+
+.nome{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 11px;
+}
+
+h3{
+    color: #484854ff;
+}
+
+.nome span, p{
+    color:  hsl(0, 0%, 59%);
+    font-weight: 200;
+}
+
+.nome p{
+    font-size: 10px;
+    padding-top: 15px;
+}
+
+.informacoes{
+    width: 100%;
+    height: 30%;
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.numero{
+    display: flex;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul p{
+    color:#484854ff;
+    font-size: 8px;
+    text-align: center;
+    color:  hsl(0, 0%, 59%);
+    
+   
+}
+ul span{
+    color:#484854ff;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+
