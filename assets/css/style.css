@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family:'Kumbh Sans', sans-serif;
+    
+}
+
+body{
+    background: #1da9b6ff;
 }
 
 .principal{
@@ -93,7 +98,7 @@ ul p{
 }
 ul span{
     color:#484854ff;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
 
 }
